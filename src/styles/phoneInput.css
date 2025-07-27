@@ -1,0 +1,65 @@
+/* Custom styles for react-phone-input-2 */
+.react-tel-input .flag-dropdown {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.react-tel-input .selected-flag {
+  background-color: transparent !important;
+}
+
+.react-tel-input .flag-dropdown:hover,
+.react-tel-input .flag-dropdown.open {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Ensure flags are visible */
+.react-tel-input .flag {
+  background-image: url('https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/flags/4x3/us.svg') !important;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Country list dropdown */
+.react-tel-input .country-list {
+  background-color: #764ba2 !important;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.react-tel-input .country-list .country {
+  color: white !important;
+  padding: 10px;
+}
+
+.react-tel-input .country-list .country:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.react-tel-input .country-list .country.highlight {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Search box */
+.react-tel-input .search-box {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  padding: 10px;
+}
+
+.react-tel-input .search-box:focus {
+  border-color: white !important;
+  outline: none;
+}
+
+/* Arrow icon */
+.react-tel-input .arrow {
+  border-top-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.react-tel-input .arrow.up {
+  border-bottom-color: rgba(255, 255, 255, 0.7) !important;
+}
